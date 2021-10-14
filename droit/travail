@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'G-YMZXVX0138', 'auto','myTracker');
+    ga('send', 'pageview');
+
+    ga(function() {
+        console.log(ga.getByName('myTracker'));
+    });
+</script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="irstheme">
+
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <title> Gama - SCPA </title>
+
+    <link href="../css/themify-icons.css" rel="stylesheet">
+    <link href="../css/flaticon.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/owl.carousel.css" rel="stylesheet">
+    <link href="../css/owl.theme.css" rel="stylesheet">
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/swiper.min.css" rel="stylesheet">
+    <link href="../css/owl.transitions.css" rel="stylesheet">
+    <link href="../css/jquery.fancybox.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- start page-wrapper -->
+<div class="page-wrapper">
+
+    <!-- start preloader -->
+    <div class="preloader">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- Start header -->
+    <!-- Start header -->
+<header id="header" class="site-header header-style-1"><!-- end topbar -->
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            
+                            
+                        
+                    
+                
+            
+        
+    
+    <nav class="navigation navbar navbar-default" style="background-color: rgba(255,255,255,0.8);height: 100px">
+        <div class="container" style="">
+            <div class="navbar-header">
+                <button type="button" class="open-btn">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
+                <button class="close-navbar"><i class="ti-close"></i></button>
+                <ul class="nav navbar-nav">
+                    <li><a style="color:#16408c" href="../index.html">Accueil</a></li>
+
+                    <li><a style="color:#16408c" href="../contact">Contact</a></li>
+
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="travail#">La société</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                            <li><a style="color: white"  href="../about">Qui sommes nous?</a></li>
+                            <li><a style="color: white"  href="../mediatheque">Médiathèque</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="travail#">Expertises</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                            <b></b> <li><a style="color: white" href="contrat">Droit des contrats internationaux</a></li>
+                            <b></b> <li><a style="color: white" href="ppp">Droit des contrats PPP </a></li>
+                            <b></b> <li><a style="color: white" href="societe">Droit des sociétés commerciales</a></li>
+                            <b></b> <li><a style="color: white" href="commerce">Droit commercial général</a></li>
+                            <b></b> <li><a style="color: white" href="surete">Droit des sûretés</a></li>
+                            <b></b> <li><a style="color: white" href="creance">Recrouvrement de créances</a></li>
+                            <b></b> <li><a style="color: white" href="travail">Droit du travail</a></li>
+                            <b></b> <li><a style="color: white" href="penal">Droit pénal des affaires</a></li>
+                            <b></b> <li><a style="color: white" href="marche">Droit des marchés publics</a></li>
+                            <b></b> <li><a style="color: white" href="arbitrage">Arbitrage</a></li>
+                                                    </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="travail#">Législation</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                            <li><a  style="color: white" href="../legislation/cotonou">Tribunal du commerce de cotonou</a></li>
+                            <li><a  style="color: white" href="../legislation/ohada">Traité et actes uniformes de l'OHADA</a></li>
+                            <li><a  style="color: white" href="../legislation/beninoise">Législation béninoise</a></li>
+                                                    </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="travail">Jurisprudence</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                                                            <li><a style="color: white" href="../juris/3">Voies d&#039;exécution</a></li>
+                                                                                </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="travail#">Doctrine</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                                                            <li><a style="color: white" href="../doctrine/1">Voies d&#039;exécution</a></li>
+                                                            <li><a style="color: white" href="../doctrine/2">Mode alternatif de règlement des différends</a></li>
+                                                                                </ul>
+                    </li>
+                    <li><a style="color:#16408c" href="../blog">Actualités</a></li>
+
+                </ul>
+            </div>
+
+        </div><!-- end of container -->
+    </nav>
+</header>
+<!-- end of header -->
+
+    
+    <section class="page-title" style="background: url('../images/slider/slide-2.jpg') center center/cover no-repeat local;filter: brightness(0.50)">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+    <section class="service-single-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-3">
+                    <div class="service-sidebar">
+                        <div class="widget service-list-widget" style="text-align: left">
+                            <ul>
+
+                                <li><a href="contrat" class="" >Droit des contrats internationaux</a></li>
+                                <li><a href="ppp" class="" >Droit des contrats ppp </a></li>
+                                <li><a href="societe" class="" >Droit des sociétés commerciales</a></li>
+                                <li><a href="commerce" class="" >Droit commercial général</a></li>
+                                <li><a href="surete" class="" >Droit des sûretés</a></li>
+                                <li><a href="travail" class=" current " >Droit du travail</a></li>
+                                <li><a href="penal" class="" >Droit pénal des affaires</a></li>
+                                <li><a href="marche" class="" >Droit des marchés publics</a></li>
+                                <li><a href="arbitrage" class="" >Arbitrage</a></li>
+                                                            </ul>
+                        </div>
+
+                        <div class="widget contact-widget">
+                            <div>
+                                <h4>Besoin d'aide?</h4>
+                                <p>Prenez un rendez vous !</p>
+                                <a href="../contact">Contactez maintenant</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="service-single-content" style="text-align: justify">
+                        <h2 style="text-align: left">    DROIT DU TRAVAIL
+</h2>
+                            <p>
+        Même si le monde du travail contemporain est menacé par la robotisation, l’individu restera encore longtemps, en Afrique particulièrement, au centre de la productivité au sein des entreprise.  Le droit du travail qui est la branche du droit qui régit les relations de travail individuelles et collectives, conserve toujours donc son actualité.La législation béninoise, comme la plupart des législations en Afrique, définit le contrat de travail comme un accord de volontés par lequel une personne physique s’engage à mettre son activité professionnelle sous la direction et l’autorité d’une autre personne physique ou morale moyennant rémunération.
+    </p>
+
+    <h3>
+        Rédaction des contrats de travail et Conseils
+    </h3>
+    <p>
+        Les relations de travail procèdent d’un contrat de travail, écrit ou verbal qui a vocation à matérialiser notamment la nature du contrat, sa durée, les droits et obligations des parties à la lumière des dispositions légales en vigueur.Même si le contrat de travail est valable en l’absence d’un écrit, il est toujours avantageux pour les parties de le conclure par écrit à toutes fins utiles.Aux fins donc de la rédaction de ces contrats, notre intervention pour le compte de l’une ou l’autre des parties reste pour elle une garantie que ses engagements seront pris en toute connaissance de cause et dans des conditions préservant efficacement ses intérêts.Le droit du travail doit par ailleurs intéresser l’entreprise surtout en raison des droits et prérogatives que confère aux travailleurs la législation en vigueur dans l’Etat où l’entreprise est installée ou entreprend de s’installer.
+    </p>
+    <br>
+    <p>
+        Notre société offre au client en cette matière, une toute nouvelle expertise qui met la législation du travail au service du développement cumulatif de l’entreprise et du travailleur  en orientant son application dans une perspective qui fait de ce dernier un agent épanoui, dans le but d’augmenter sa productivité.
+    </p>
+
+    <h3>
+        Contentieux sociaux
+    </h3>
+    <p>
+        L’application de notre méthode décrite ci-dessus permet de prévenir les contentieux sociaux de tous genres dans de nombreux cas, le travailleur se considérant comme un associé et non comme un travailleur exploité.
+    </p>
+    <br>
+    <p>
+        Mais dans les cas où des contentieux sont portés devant les juridictions, nous assurons au client, salarié ou employeur, une défense avisée de ses intérêts au regard de la législation applicable à son contrat.
+    </p>
+
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="blog-sidebar">
+                        <div class="widget recent-post-widget">
+                            <div style="height: 30px;background-color: red;">
+                                <b><p class="text-center" style="color: white;">Dernières actualités</p></b>
+                            </div>
+                            <div class="posts" style="margin-top: 5%">
+                                                                    <p>Aucune actualités pour le moment</p>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+
+
+<footer class="site-footer">
+    <div class="upper-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="widget about-widget">
+                        <div class="widget-title">
+                            <h3>A propos</h3>
+                        </div>
+
+                        <div class="logo-area">
+                            <img src="../images/logo.jpg" alt>
+                        </div>
+                        <p>La Société Civile Professionnelle d’Avocats SCPA GAMA est née de la fusion de quatre cabinets d’Avocats d’affaires exerçant depuis plusieurs années à Cotonou, République du Bénin.</p>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="widget link-widget">
+                        <div class="widget-title">
+                            <h3>Liens rapides</h3>
+                        </div>
+                        <ul>
+                            <li><a href="../about">À propos</a></li>
+                            <li><a href="../contact">Contactez nous</a></li>
+                            <li><a href="travail#">Notre équipe</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="widget link-widget line-widget-2">
+                        <div class="widget-title">
+                            <h3>Domaines d'expertises</h3>
+                        </div>
+                        <ul>
+                            <li><a href="contrat">Droit des contrats internationaux</a></li>
+                            <li><a href="ppp">Droit des contrats PPP </a></li>
+                            <li><a href="societe">Droit des sociétés commerciales</a></li>
+                            <li><a href="commerce">Droit commercial général</a></li>
+                            <li><a href="surete">Droit des sûretés</a></li>
+                            <li><a href="travail">Droit du travail</a></li>
+                            <li><a href="penal">Droit pénal des affaires</a></li>
+                            <li><a href="marche">Droit des marchés publics</a></li>
+                            <li><a href="arbitrage">Arbitrage</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </div>
+    <div class="lower-footer">
+        <div class="container">
+            <div class="row">
+                <div class="separator"></div>
+                <div class="col col-xs-12">
+                    <p class="copyright">Copyright &copy; 2021 SCPA GAMA. Tous Droits réservés.</p>
+                    <p class="iroko">Créé par <a href="https://irokolab.tech" target="_blank">BombDigital </a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- end site-footer -->
+
+
+
+</div>
+<!-- end of page-wrapper -->
+
+
+
+<!-- All JavaScript files
+================================================== -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Plugins for this template -->
+<script src="../js/jquery-plugin-collection.js"></script>
+
+<!-- Custom script for this template -->
+<script src="../js/script.js"></script>
+</body>
+</html>

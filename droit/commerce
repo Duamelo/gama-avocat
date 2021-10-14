@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'G-YMZXVX0138', 'auto','myTracker');
+    ga('send', 'pageview');
+
+    ga(function() {
+        console.log(ga.getByName('myTracker'));
+    });
+</script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="irstheme">
+
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <title> Gama - SCPA </title>
+
+    <link href="../css/themify-icons.css" rel="stylesheet">
+    <link href="../css/flaticon.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/owl.carousel.css" rel="stylesheet">
+    <link href="../css/owl.theme.css" rel="stylesheet">
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/swiper.min.css" rel="stylesheet">
+    <link href="../css/owl.transitions.css" rel="stylesheet">
+    <link href="../css/jquery.fancybox.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- start page-wrapper -->
+<div class="page-wrapper">
+
+    <!-- start preloader -->
+    <div class="preloader">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- Start header -->
+    <!-- Start header -->
+<header id="header" class="site-header header-style-1"><!-- end topbar -->
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            
+                            
+                        
+                    
+                
+            
+        
+    
+    <nav class="navigation navbar navbar-default" style="background-color: rgba(255,255,255,0.8);height: 100px">
+        <div class="container" style="">
+            <div class="navbar-header">
+                <button type="button" class="open-btn">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
+                <button class="close-navbar"><i class="ti-close"></i></button>
+                <ul class="nav navbar-nav">
+                    <li><a style="color:#16408c" href="../index.html">Accueil</a></li>
+
+                    <li><a style="color:#16408c" href="../contact">Contact</a></li>
+
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="commerce#">La société</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                            <li><a style="color: white"  href="../about">Qui sommes nous?</a></li>
+                            <li><a style="color: white"  href="../mediatheque">Médiathèque</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="commerce#">Expertises</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                            <b></b> <li><a style="color: white" href="contrat">Droit des contrats internationaux</a></li>
+                            <b></b> <li><a style="color: white" href="ppp">Droit des contrats PPP </a></li>
+                            <b></b> <li><a style="color: white" href="societe">Droit des sociétés commerciales</a></li>
+                            <b></b> <li><a style="color: white" href="commerce">Droit commercial général</a></li>
+                            <b></b> <li><a style="color: white" href="surete">Droit des sûretés</a></li>
+                            <b></b> <li><a style="color: white" href="creance">Recrouvrement de créances</a></li>
+                            <b></b> <li><a style="color: white" href="travail">Droit du travail</a></li>
+                            <b></b> <li><a style="color: white" href="penal">Droit pénal des affaires</a></li>
+                            <b></b> <li><a style="color: white" href="marche">Droit des marchés publics</a></li>
+                            <b></b> <li><a style="color: white" href="arbitrage">Arbitrage</a></li>
+                                                    </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="commerce#">Législation</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                            <li><a  style="color: white" href="../legislation/cotonou">Tribunal du commerce de cotonou</a></li>
+                            <li><a  style="color: white" href="../legislation/ohada">Traité et actes uniformes de l'OHADA</a></li>
+                            <li><a  style="color: white" href="../legislation/beninoise">Législation béninoise</a></li>
+                                                    </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="commerce">Jurisprudence</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                                                            <li><a style="color: white" href="../juris/3">Voies d&#039;exécution</a></li>
+                                                                                </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a style="color:#16408c" href="commerce#">Doctrine</a>
+                        <ul style="background-color: #16408c" class="sub-menu">
+                                                            <li><a style="color: white" href="../doctrine/1">Voies d&#039;exécution</a></li>
+                                                            <li><a style="color: white" href="../doctrine/2">Mode alternatif de règlement des différends</a></li>
+                                                                                </ul>
+                    </li>
+                    <li><a style="color:#16408c" href="../blog">Actualités</a></li>
+
+                </ul>
+            </div>
+
+        </div><!-- end of container -->
+    </nav>
+</header>
+<!-- end of header -->
+
+    
+    <section class="page-title" style="background: url('../images/commerce.jpg') center center/cover no-repeat local;filter: brightness(0.50)">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+    <section class="service-single-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-3">
+                    <div class="service-sidebar">
+                        <div class="widget service-list-widget" style="text-align: left">
+                            <ul>
+
+                                <li><a href="contrat" class="" >Droit des contrats internationaux</a></li>
+                                <li><a href="ppp" class="" >Droit des contrats ppp </a></li>
+                                <li><a href="societe" class="" >Droit des sociétés commerciales</a></li>
+                                <li><a href="commerce" class=" current " >Droit commercial général</a></li>
+                                <li><a href="surete" class="" >Droit des sûretés</a></li>
+                                <li><a href="travail" class="" >Droit du travail</a></li>
+                                <li><a href="penal" class="" >Droit pénal des affaires</a></li>
+                                <li><a href="marche" class="" >Droit des marchés publics</a></li>
+                                <li><a href="arbitrage" class="" >Arbitrage</a></li>
+                                                            </ul>
+                        </div>
+
+                        <div class="widget contact-widget">
+                            <div>
+                                <h4>Besoin d'aide?</h4>
+                                <p>Prenez un rendez vous !</p>
+                                <a href="../contact">Contactez maintenant</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="service-single-content" style="text-align: justify">
+                        <h2 style="text-align: left">    DROIT COMMERCIAL GENERAL
+</h2>
+                        
+    <p>
+        Le droit commercial général est une branche du droit des affaires à laquelle le Traité relatif à l’harmonisation du droit des affaires en Afrique – Traité OHADA- a consacré un Acte uniforme, l’Acte Uniforme relatif au Droit Commercial Général -AUDCG– dont la version modifiée le 15 décembre 2010, est entrée en vigueur le 15 mai 2011. Ce droit est donc appréhendé particulièrement ici à la lumière de ce corpus juridique engendré par le Traité OHADA et les Actes uniformes pris pour l’application dudit Traité. Entré en vigueur le 18 Septembre 1995, le Traité OHADA a été révisé au Conseil des Ministres de l’OHADA tenu à Québec, au Canada, le 17 octobre 2008. Les Actes uniformes constituent, dans les matières auxquelles ils se rapportent, le droit uniformément appliqué dans  les dix-sept (17) Etats suivants : République du BENIN, République du BURIKINA FASO, République du CAMEROUN, République CENTRAFRICAINE, République islamique des COMORES, République du CONGO, République de la CÔTE-D’IVOIRE, République du GABON, République de GUINÉE, République de GUINÉE-BISSAU, République de GUINÉE ÉQUATORIALE, République du MALI, République du NIGER, RÉPUBLIQUE DÉMOCRATIQUE DU CONGO, République du SÉNÉGAL, République du TCHAD, République du TOGO.
+    </p>
+    <br>
+    <p>
+        Le droit commercial dans l’Espace OHADA est l’ensemble des règles qui régissent l’activité du commerçant, personne physique ou morale même celle dans laquelle l’Etat est associé, et généralement celle de tout « entreprenant », dont l’établissement ou le siège est situé sur le territoire de l’un des Etats parties au Traité. Est commerçant celui qui fait de l’accomplissement d’acte de commerce par nature sa profession habituelle. L’entreprenant quant à lui est un entrepreneur individuel, personne physique, qui sur simple déclaration au registre du commerce et du crédit mobilier, exerce une activité professionnelle civile, commerciale, artisanale ou agricole et qui conserve ce statut tant que le chiffre d’affaires annuel généré par son activité pendant deux exercices successifs n’excède pas certain seuil fixé par la loi.
+    </p>
+    <br>
+    <p>
+        L’acte de commerce par nature est celui par lequel une personne s’entremet dans la circulation des biens qu’elle produit ou achète ou par lequel elle fournit des prestations de service avec l’intention d’en tirer un profit pécuniaire. Ont, notamment, le caractère d’actes de commerce par nature : l’achat de biens, meubles ou immeubles, en vue de leur revente ; les opérations de banque, de bourse, de change, de courtage, d’assurance et de transit ; les contrats entre commerçants pour les besoins de leur commerce ; l’exploitation industrielle des mines, carrières et de tous gisements de ressources naturelles ; les opérations de location de meubles ;- les opérations de manufacture, de transport et de télécommunication ; les opérations des intermédiaires de commerce, telles que la commission, le courtage, l’agence, ainsi que les opérations d’intermédiaires pour l’achat, la souscription, la vente ou la location d’immeubles, de fonds de commerce, d’actions ou de parts de société commerciale ou immobilière ; les actes effectués par les sociétés commerciales.
+    </p>
+    <br>
+    <p>
+        Toute personne, quelle que soit sa nationalité, désirant exercer une activité commerciale en société sur le territoire de l’un des Etats parties au Traité OHADA, doit impérativement choisir l’une des formes de société qui convient à l’activité envisagée, parmi celles reconnues et prévues par l’Acte Uniforme relatif au Droit des Sociétés Commerciales du Groupement d’Intérêt Economique.
+    </p>
+
+    <h3>
+        Rédaction des contrats commerciaux
+    </h3>
+    <p>
+        Plusieurs contrats jalonnent la vie professionnelle du commerçant. L’on pourrait même pertinemment affirmer que la vie professionnelle du commerçant, personne physique ou société commerciale, est faite de contrats. Il est donc forcément en interaction soit avec d’autres commerçants, soit avec des non-commerçants ou des consommateurs. Cette interaction permanente est matérialisée par des contrats écrits ou des contrats non-écrits.
+    </p>
+
+    <p>
+        Les contrats qui marquent la vie professionnelle du commerçant sont donc divers : contrat de vente interne et internationale de marchandises, contrat de vente de fonds de commerce, contrat de location de biens meubles corporels, contrat de location-gérance de fonds de commerce, contrat de bail commercial, contrat de mandat de l’intermédiaire de commerce, contrat de commission, contrats de transport uni et multimodal, etc.
+    </p>
+
+    <p>
+        De la même manière que l’on ne peut construire une belle maison avec un plan architectural mal conçu, il serait pénible de réaliser de bonnes affaires sur le fondement de contrats mal négociés et mal rédigés. Un déroulement fluide des relations d’affaires suppose donc un cadre contractuel qui s’y prête, voire la prévoyance d’un mode de règlement des différends qui doit le plus souvent et selon les cas fréquents privilégier la sauvegarde des relations d’affaires.
+    </p>
+
+    <p>
+        Notre intervention pendant la négociation et la conclusion de ces contrats garantit au client que ses engagements seront pris en toute connaissance de cause et dans des conditions préservant efficacement ses intérêts. La négociation et la rédaction des contrats sont un moment idéal de la sauvegarde des intérêts des parties, de la prévention des conflits d’interprétation et de la prévoyance de modes de règlement des différends les plus appropriés à l’affaire objet du contrat en formation.
+    </p>
+
+    <h3>Contentieux commercial</h3>
+
+    <p>
+        L’exercice des activités commerciales, les relations d’affaires entre commerçants, personnes physiques ou sociétés commerciales peuvent générer de nombreux contentieux de nature diverse dont ceux relatifs à la formation, l’interprétation et l’exécution des contrats, à la constitution et à la mise en œuvre des sûretés, aux baux commerciaux, à l’exécution ou à l’inexécution des obligations commerciales, à la rupture abusive des relations contractuelles, au recouvrement de créances commerciales.
+    </p>
+
+    <p>
+        L’assistance et la défense du client en cette matière requiert donc de la part de l’Avocat une maîtrise aussi bien du droit des affaires en général que du droit et de la technique contractuels en particulier. Dans cette aventure contentieuse, nos clients bénéficient d’une défense totale élaborée de façon sophistiquée suivant notre Manuel des Techniques de Défense à nul autre pareil fondée sur les grandes théories de défense et la pratique des juridictions.
+    </p>
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="blog-sidebar">
+                        <div class="widget recent-post-widget">
+                            <div style="height: 30px;background-color: red;">
+                                <b><p class="text-center" style="color: white;">Dernières actualités</p></b>
+                            </div>
+                            <div class="posts" style="margin-top: 5%">
+                                                                    <p>Aucune actualités pour le moment</p>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+
+
+<footer class="site-footer">
+    <div class="upper-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="widget about-widget">
+                        <div class="widget-title">
+                            <h3>A propos</h3>
+                        </div>
+
+                        <div class="logo-area">
+                            <img src="../images/logo.jpg" alt>
+                        </div>
+                        <p>La Société Civile Professionnelle d’Avocats SCPA GAMA est née de la fusion de quatre cabinets d’Avocats d’affaires exerçant depuis plusieurs années à Cotonou, République du Bénin.</p>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="widget link-widget">
+                        <div class="widget-title">
+                            <h3>Liens rapides</h3>
+                        </div>
+                        <ul>
+                            <li><a href="../about">À propos</a></li>
+                            <li><a href="../contact">Contactez nous</a></li>
+                            <li><a href="commerce#">Notre équipe</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="widget link-widget line-widget-2">
+                        <div class="widget-title">
+                            <h3>Domaines d'expertises</h3>
+                        </div>
+                        <ul>
+                            <li><a href="contrat">Droit des contrats internationaux</a></li>
+                            <li><a href="ppp">Droit des contrats PPP </a></li>
+                            <li><a href="societe">Droit des sociétés commerciales</a></li>
+                            <li><a href="commerce">Droit commercial général</a></li>
+                            <li><a href="surete">Droit des sûretés</a></li>
+                            <li><a href="travail">Droit du travail</a></li>
+                            <li><a href="penal">Droit pénal des affaires</a></li>
+                            <li><a href="marche">Droit des marchés publics</a></li>
+                            <li><a href="arbitrage">Arbitrage</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </div>
+    <div class="lower-footer">
+        <div class="container">
+            <div class="row">
+                <div class="separator"></div>
+                <div class="col col-xs-12">
+                    <p class="copyright">Copyright &copy; 2021 SCPA GAMA. Tous Droits réservés.</p>
+                    <p class="iroko">Créé par <a href="https://irokolab.tech" target="_blank">BombDigital </a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- end site-footer -->
+
+
+
+</div>
+<!-- end of page-wrapper -->
+
+
+
+<!-- All JavaScript files
+================================================== -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Plugins for this template -->
+<script src="../js/jquery-plugin-collection.js"></script>
+
+<!-- Custom script for this template -->
+<script src="../js/script.js"></script>
+</body>
+</html>
