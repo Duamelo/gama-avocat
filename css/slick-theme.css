@@ -13,7 +13,7 @@
     font-style: normal;
 
     src: url('../fonts/slick.eot');
-    src: url('../fonts/slick.eot?') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('https://gama-avocatsafrique.com/fonts/slick.svg') format('svg');
+    src: url('../fonts/slick.eot%3F') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('https://gama-avocatsafrique.com/fonts/slick.svg') format('svg');
 }
 /* Arrows */
 .slick-prev,
