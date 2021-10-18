@@ -21,10 +21,30 @@
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <style type="text/css">
+		.send-email__processing,
+		.send-email__success,
+		.send-email__failure,
+		.send-email.is-processing,
+		.send-email.is-success .send-email__init,
+		.send-email.is-failure .send-email__init {
+			display: none;
+		}
+
+		.send-email.is-processing .send-email__processing,
+		.send-email.is-success .send-email__success,
+		.send-email.is-failure .send-email__failure {
+			display: block;
+		}
+	</style>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+
+    
     <![endif]-->
 
 </head>
@@ -184,30 +204,32 @@
                 </div>
 
                 <div class="contact-form">
-                    <form method="post" action="https://gama-avocatsafrique.com/send/rdv">
-                        <input type="hidden" name="_token" value="hq3WeAxkVshr5B95nXSafNNuazs3PygD0E5m7buM">                        <div>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Nom*">
+                    <form action="http://localhost:4000/send-email" method="post">
+                        <input type="hidden" name="_token" value="hq3WeAxkVshr5B95nXSafNNuazs3PygD0E5m7buM">                       
+                        <div>
+                            <input type="text" class="form-control" name="name" id="name" required placeholder="Nom*" >
                         </div>
                         <div>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
+                            <input type="email" class="send-email_from form-control" required name="email" id="email" placeholder="Email*" >
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="telephone" id="phone" placeholder="Téléphone*">
+                            <input type="text" class="form-control" name="phone" required id="phone" placeholder="Téléphone*">
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="sujet" id="subject" placeholder="Sujet*">
+                            <input type="text" class="form-control" name="subject" required id="subject" placeholder="Sujet*">
                         </div>
                         <div class="fullwidth">
-                            <textarea class="form-control" name="message"  id="note" placeholder="Description..."></textarea>
+                            <textarea class="form-control" name="content" required  id="content" placeholder="Description..."></textarea>
                         </div>
                         <div class="submit-area">
-                            <button type="submit" class="theme-btn">Envoyez</button>
+                            <button  class="theme-btn">Envoyez</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div> <!-- end content-area -->
     </section>
+
 
     <footer class="site-footer">
     <div class="upper-footer">

@@ -118,14 +118,14 @@
                     <li class="menu-item-has-children">
                         <a style="color:#16408c" href="18.html">Jurisprudence</a>
                         <ul style="background-color: #16408c" class="sub-menu">
-                                                            <li><a style="color: white" href="../../juris/3.html">Voies d&#039;exécution</a></li>
+                                                            <li><a style="color: white" href="../../juris/voie_d_execution.html">Voies d&#039;exécution</a></li>
                                                                                 </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a style="color:#16408c" href="18.html#">Doctrine</a>
                         <ul style="background-color: #16408c" class="sub-menu">
-                                                            <li><a style="color: white" href="../../doctrine/1.html">Voies d&#039;exécution</a></li>
-                                                            <li><a style="color: white" href="../../doctrine/2.html">Mode alternatif de règlement des différends</a></li>
+                                                            <li><a style="color: white" href="../../doctrine/voies_d_execution.html">Voies d&#039;exécution</a></li>
+                                                            <li><a style="color: white" href="../../doctrine/mode_alternatif_reglement_different.html">Mode alternatif de règlement des différends</a></li>
                                                                                 </ul>
                     </li>
                     <li><a style="color:#16408c" href="../../blog.html">Actualités</a></li>
@@ -495,20 +495,23 @@
                         
 
                         <div class="comments-area">
-                            <div class="comments-section">
-                                <h3 class="comments-title">0 Commentaire(s)</h3>
-                                <ol class="comments">
-                                                                    </ol>
+                            <div class="comments-section" id="comments-sec">
+                                <h3 class="comments-title" id="comment-title"> </h3>
+                                <ol class="comments" id="comment">
+                                        
+                                      
+                                </ol>
                             </div> <!-- end comments-section -->
 
+                            
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Ajouter un commentaire</h3>
-                                <form method="post" action="https://gama-avocatsafrique.com/comment/18" class="comment-form">
+                                <form action="http://localhost:4000/send-comment/18" method="post" class="comment-form">
                                     <input type="hidden" name="_token" value="hq3WeAxkVshr5B95nXSafNNuazs3PygD0E5m7buM">                                    <div class="form-textarea">
-                                        <textarea id="comment" name="text" placeholder="Entrer votre commentaire..."></textarea>
+                                        <textarea id="commentField" name="text" required placeholder="Entrer votre commentaire..."></textarea>
                                     </div>
                                     <div class="form-inputs">
-                                        <input placeholder="Nom" name="name" type="text">
+                                        <input placeholder="Nom" class="nameField" required name="name" type="text">
                                     </div>
                                     <div class="form-submit">
                                         <input id="submit" value="Ajouter" type="submit">
@@ -523,6 +526,105 @@
     </section>
     <!-- end blog-single-section -->
 
+    <script type="text/javascript">
+                
+        
+        var data = [];                    
+        
+
+        function createNode(element)
+        {
+            return document.createElement(element);
+        }
+
+        function append(parent, el)
+        {
+            return parent.appendChild(el);
+        }
+
+        function addClasse(element, classe)
+        {
+            element.classList.add(classe);
+        }
+
+        function addId(element, id)
+        {
+            element.id = id;
+        }
+
+
+
+        var ol = document.getElementById('comment');
+
+
+            fetch('http://localhost:4000/get/count/18')
+            .then( (resp) => resp.json())
+            .then( (count) => {
+                console.log(count);
+              
+                let h3 = document.getElementById('comment-title');
+
+                h3.innerHTML = count.comment + " Commentaire(s)";
+            })
+
+
+            fetch('http://localhost:4000/liste-comment/18')
+            .then( (resp) => resp.json())
+            .then( (data)=>{
+               let comments = data.results;
+               console.log(data);
+
+                return data.map( (comment) => {
+                    console.log(comment);
+                    let li = createNode('li');
+                    let div1 = createNode('div');
+                    let div2 = createNode('div');
+                    let div3 = createNode('div');
+                    let div4 = createNode('div');
+                    let div5 = createNode('div');
+                    let h4 = createNode('h4');
+                    let span = createNode('span');
+                    let p = createNode('p');
+
+                    addClasse(li, 'comment');
+                    addClasse(li, 'even');
+                    addClasse(li, 'thread-even');
+                    addId(li, 'comment-1');
+                    addId(div1, 'comment-1');
+
+                    addClasse(div2, 'comment-main-area');
+                    addClasse(div3, 'comment-wrapper');
+                    addClasse(div4, 'comments-meta');
+                    addClasse(span, 'comment-date');
+                    addClasse(div5, 'comment-area');
+
+
+                    p.innerHTML = comment.comment;
+                    append(div5, p);
+
+                    h4.innerHTML = comment.name;
+                   // span.innerHTML = comment.date;
+
+                    append(h4, span);
+                    append(div4, h4);
+
+
+                    append(div3, div4);
+                    append(div3, div5);
+
+                    append(div2, div3);
+                    append(div1, div2);
+
+                    append(li, div1);
+
+                    append(ol, li);
+
+                })
+            })
+            .catch( (error)=>{
+                console.log(error);
+            });
+    </script>
     <footer class="site-footer">
     <div class="upper-footer">
         <div class="container">
