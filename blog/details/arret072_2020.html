@@ -419,10 +419,12 @@
               
                 let h3 = document.getElementById('comment-title');
 
-                if(count!= undefined)
-                    h3.innerHTML = count.comment + " Commentaire(s)";
+                if(count === undefined)
+                    h3.innerHTML = "0  Commentaire(s)";
+                   
                 else
-                h3.innerHTML = "0  Commentaire(s)";
+                 h3.innerHTML = count.comment + " Commentaire(s)";
+
             })
 
 
