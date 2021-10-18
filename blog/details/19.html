@@ -521,7 +521,10 @@
               
                 let h3 = document.getElementById('comment-title');
 
-                h3.innerHTML = count.comment + " Commentaire(s)";
+                if(count)
+                    h3.innerHTML = count.comment + " Commentaire(s)";
+                else
+                h3.innerHTML = "0  Commentaire(s)";
             })
 
 
