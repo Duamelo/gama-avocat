@@ -477,21 +477,21 @@
                 </div>
 
                 <div class="contact-form">
-                    <form method="post" action="https://gama-avocatsafrique.com/send/rdv">
+                    <form action="https://api-gama-avocat.herokuapp.com/send-email" method="post">
                         <input type="hidden" name="_token" value="hq3WeAxkVshr5B95nXSafNNuazs3PygD0E5m7buM">                        <div>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Nom*">
+                            <input type="text" class="form-control" required name="name" id="name" placeholder="Nom*">
                         </div>
                         <div>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
+                            <input type="email" class="form-control" required name="email" id="email" placeholder="Email*">
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="telephone" id="phone" placeholder="Téléphone*">
+                            <input type="text" class="form-control"  required name="telephone" id="phone" placeholder="Téléphone*">
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="sujet" id="subject" placeholder="Sujet*">
+                            <input type="text" class="form-control" required name="sujet" id="subject" placeholder="Sujet*">
                         </div>
                         <div class="fullwidth">
-                            <textarea class="form-control" name="message"  id="note" placeholder="Description..."></textarea>
+                            <textarea class="form-control" required name="message"  id="note" placeholder="Description..."></textarea>
                         </div>
                         <div class="submit-area">
                             <button type="submit" class="theme-btn">Envoyer</button>

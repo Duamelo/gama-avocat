@@ -345,7 +345,7 @@
                             
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Ajouter un commentaire</h3>
-                                <form action="http://localhost:4000/send-comment/168" method="post" class="comment-form">
+                                <form action="https://api-gama-avocat.herokuapp.com/send-comment/168" method="post" class="comment-form">
                                     <input type="hidden" name="_token" value="hq3WeAxkVshr5B95nXSafNNuazs3PygD0E5m7buM">                                    <div class="form-textarea">
                                         <textarea id="commentField" name="text" required placeholder="Entrer votre commentaire..."></textarea>
                                     </div>
@@ -397,7 +397,7 @@
         var ol = document.getElementById('comment');
 
 
-            fetch('http://localhost:4000/get/count/168')
+            fetch('https://api-gama-avocat.herokuapp.com/get/count/168')
             .then( (resp) => resp.json())
             .then( (count) => {
                 console.log(count);
@@ -413,7 +413,7 @@
             })
 
 
-            fetch('http://localhost:4000/liste-comment/168')
+            fetch('https://api-gama-avocat.herokuapp.com/liste-comment/168')
             .then( (resp) => resp.json())
             .then( (data)=>{
                let comments = data.results;
